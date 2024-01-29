@@ -4,7 +4,7 @@ export class Utilisateur {
     nom:string;
     prenom:string;
     adresse:string;
-    isAdmin:string;
+    isAdmin:boolean;
     date_naissance:Date;
     e_mail:string;
 }

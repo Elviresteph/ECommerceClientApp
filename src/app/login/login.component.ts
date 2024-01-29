@@ -16,13 +16,15 @@ export class LoginComponent {
     login: '',
     password: ''
   }
-
+  
+  isUpdate = false
   showError = false;
   showErrorPasw = false;
 
   login(){
 
     const conex = JSON.stringify(this.connexion);
+    console.log(conex);
 
     this.http.post<Array<Utilisateur>>("http://localhost:64243/api/Login",conex,{
       headers: new HttpHeaders({

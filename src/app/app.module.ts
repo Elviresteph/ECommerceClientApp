@@ -8,6 +8,7 @@ import { InscriptionComponent } from './inscription/inscription.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { UpdatePasswordComponent } from './update-password/update-password.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { HttpClientModule } from '@angular/common/http';
     LoginComponent,
     InscriptionComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    UpdatePasswordComponent
   ],
   imports: [
     BrowserModule,
